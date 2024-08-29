@@ -1,0 +1,148 @@
+﻿body {
+    font-family: 'Roboto', sans-serif; /*(W3Schools, 2018)*/
+    margin: 0;
+    padding: 0;
+    background: url('/images/BackgroundImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333; /*(mdn, 2022) */
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    text-align: center; /*(mdn, 2022) */
+}
+
+    header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; /*(W3Schools, 2018)*/
+    }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+            header nav ul li a { /*(W3Schools, 2018)*/
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+                header nav ul li a:hover {
+                    text-decoration: underline;
+                }
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.9); /*(mdn, 2022) */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/*(W3Schools, 2018)*/
+h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p, ul, form {
+    font-size: 16px;
+    line-height: 1.6; /*(mdn, 2022) */
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0056b3; /*(mdn, 2022) */
+    }
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        margin: 5px 0;
+        font-weight: bold; /*(W3Schools, 2018)*/
+    }
+
+    form input, form select {
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+        form input[type="submit"] {
+            background-color: #28a745; /*(mdn, 2022) */
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+            form input[type="submit"]:hover {
+                background-color: #218838;
+            }
+
+/* Product Gallery Styling */
+.product-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-item {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*(mdn, 2022) */
+    max-width: 30%;
+}
+
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .product-item h3 {
+        color: #007bff;
+        margin-top: 10px;
+    }
+
+    .product-item p {
+        font-size: 14px;
+        color: #555; /*(mdn, 2022) */ /*(W3Schools, 2018)*/
+    }
+/*REFERENCES*/
+/*mdn, 2022. mdn web docs. [Online] 
+Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+[Accessed 27 August 2024].
+W3Schools, 2018. W3Schools. [Online] 
+Available at: https://www.w3schools.com/css/css_intro.asp
+[Accessed 27 August 2024].
+IIE, 2024. Module Manual. 1st ed. Pretoria: IIE Varsity College.
+*/
